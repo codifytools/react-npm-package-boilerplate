@@ -1,5 +1,5 @@
 # React Package Boilerplate
-Boilerplate code for a simple, lightweight and performant react npm package. You can read a step-by-step guide of how to create your own package [here](https://www.codifytools.com/blog/publish-react-npm-package).
+Boilerplate code for a simple, lightweight, and performant react npm package. Read a step-by-step guide on how to create a react npm package on [Codify Tools](https://www.codifytools.com/blog/react-npm-package).
 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@codifytools/react-npm-package-boilerplate)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@codifytools/react-npm-package-boilerplate)
