@@ -1,10 +1,10 @@
 # React Package Boilerplate
 Boilerplate code for a simple, lightweight, and performant react npm package. Read a step-by-step guide on how to create a react npm package on [Codify Tools](https://www.codifytools.com/blog/react-npm-package).
 
-![npm bundle size](https://img.shields.io/bundlephobia/min/@codifytools/react-npm-package-boilerplate)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@codifytools/react-npm-package-boilerplate)
-[![npm downloads](https://img.shields.io/npm/dt/@codifytools/react-npm-package-boilerplate)](https://www.npmjs.com/package/@codifytools/react-npm-package-boilerplate)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@codifytools/react-npm-package-boilerplate?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@codifytools/react-npm-package-boilerplate?style=flat-square)
+![npm downloads](https://img.shields.io/npm/dt/@codifytools/react-npm-package-boilerplate?style=flat-square)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 ## Features
 - [Babel](https://babeljs.io/) for modern JavaScript and JSX transpilation
