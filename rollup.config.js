@@ -2,10 +2,10 @@ import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
-import pkg from './package.json';
+import * as pkg from './package.json';
 
 export default {
-  input:'src/index.js',
+  input: 'src/index.js',
   output: [
     { file: pkg.main, format: 'cjs' },
     { file: pkg.module, format: 'esm' }
@@ -18,7 +18,7 @@ export default {
     }),
     resolve(),
     commonjs(),
-    terser()
+    terser(),
   ],
-  external: Object.keys(pkg.peerDependencies)
+  external: Object.keys(pkg.peerDependencies),
 };
