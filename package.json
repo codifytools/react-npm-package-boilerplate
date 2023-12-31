@@ -6,7 +6,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "storybook": "start-storybook",
+    "storybook": "storybook dev",
     "build": "rollup -c",
     "npm:details": "npm pack --dry-run",
     "npm:publish": "npm run build && npm publish --access public"
@@ -24,23 +24,24 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "14"
+    "node": "20"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.6",
-    "@babel/preset-env": "^7.23.6",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
     "@babel/preset-react": "^7.23.3",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@storybook/react": "^6.5.16",
+    "@storybook/react-vite": "^7.6.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup": "^3.29.4"
+    "rollup": "^4.9.2",
+    "storybook": "^7.6.6"
   }
 }

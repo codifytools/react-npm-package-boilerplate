@@ -1,5 +1,5 @@
 import React from 'react';
-import { CounterComponent } from '../src/index.js';
+import { CounterComponent } from '../src/index.jsx';
 
 export default {
   component: CounterComponent,
